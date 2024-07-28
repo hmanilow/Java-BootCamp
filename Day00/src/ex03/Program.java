@@ -67,8 +67,6 @@ public class Program
                     System.exit(1);
                 }
                 marks = input.nextInt();
-                //System.out.println(marks);
-                //System.out.println(weeks);
                 if (marks == weeks)
                 {
                     res = res * 10 + minOfMarks(input);
